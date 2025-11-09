@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+pip-selfcheck.json
+
+# Streamlit
+# Ignore only the secrets file for security
+.streamlit/secrets.toml
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# User Uploads
+# If you create a folder to save uploaded Excel files, add its name here.
+# For example:
+# uploaded_files/
+
+# Environment Variables
+# Ignore local environment files, but allow example templates
+.env*
+!/.env.example
+
+# Dataset
+assets/master_data.xlsx
